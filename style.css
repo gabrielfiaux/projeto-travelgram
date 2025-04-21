@@ -98,8 +98,12 @@ main p{
 }
 
 #info img{
+    position: relative;
+    top: 4px;
+    width: 24px;
+    height: 24px;
     padding-top: 10px ;
-    margin-right: 6px;
+    margin-right: 8px;
 }
 
 #info li + li{
