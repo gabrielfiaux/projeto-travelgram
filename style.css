@@ -51,6 +51,7 @@ nav #lupa{
 
 
 #about{
+    height: 240px;
     
     padding-top:  80px;
     display: flex;
@@ -108,4 +109,32 @@ main p{
 
 #info li + li{
     margin-top: 16px;
+}
+
+#gallery{
+    display: flexbox;
+    margin:  32px;
+}
+
+.photo{
+    height: 286px;
+    width: 286px;
+    padding-left: 32px;
+    padding-top: 24px;
+    
+}
+
+.footer{
+    color: #6C6C6C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    
+}
+
+.footer-direita{
+    background-image: ;
+    display: flex;
+    gap: 24px;
 }
