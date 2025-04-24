@@ -26,3 +26,27 @@ body{
     color: var(--text-color-primary);
     background-color: var(--bg-color);
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: var(--font-family);
+    
+}
+
+a:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+/*Class criada para responsividade da nav*/
+.container{
+    padding-inline: 32px ;
+    max-width: 1280px; /*Largura maxima para o zoom e zoom alt da pagina*/
+    margin-inline:auto ; /*Faz com que o zoom não deixa o content no canto e si,m  no meio */
+}
+
+/*Para que a nav fique responsiva ela não pode se extender muit no zoom out, então cria-se uma div que envelopa a nav e essa div pode se extender até o fim da pagina.*/
+.surface-color{ 
+ background-color: var(--surface-color);
+}
