@@ -1,0 +1,48 @@
+header{
+    font: var(--text-md)
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+    padding-block: 32px ;
+    display: flex;
+    gap: 32px;
+    font-family: var(--text-md);
+}
+.descricao{
+    max-width: 384px;
+}
+.descricao h1{
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+
+
+.info{
+
+}
+.info ul{
+    max-width: 280px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.info li{
+display: flex;
+align-items: center;
+gap: 8px;
+    
+}
+.info li img{
+     position:relative ;
+     top: 2px;
+    
+}
